@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("bg2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.top{
+    color: white;
+    height: 6%;
+    width: 100%;
+    padding-top: 6px;
+    padding-left: 6px;
+    border: 1px solid white;
+    font-family: monospace;
+    
+}
+.rotation{
+    height:90%;
+    width:90%;
+    border:1px solid white;
+    justify-self: center;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first{
+    transform: rotateY(60deg);
+    transform: rotateZ(90deg);
+
+}
+.second{
+    height: 90%;
+    width: 90%;
+    transform: rotateX(90deg);
+    transform: rotateZ(-30deg);
+    position: absolute;
+    top:10%;
+    left:0px;
+
+}
+.third{
+    height: 80%;
+    width: 80%;
+    transform: rotateX(90deg);
+    transform: rotateZ(-30deg);
+}
+.fourth{
+    height: 80%;
+    width: 80%;
+    transform: rotateX(90deg);
+    transform: rotateZ(-30deg);
+}
+.fifth{
+    height: 80%;
+    width: 80%;
+    transform: rotateX(90deg);
+    transform: rotateZ(-30deg);
+}
+.sixth{
+    height: 90%;
+    width:90%;
+    transform: rotateX(90deg);
+    transform: rotateZ(-30deg);
+}
+.seventh{
+    height: 90%;
+    width:90%;
+    transform: rotateX(90deg);
+    transform: rotateZ(-30deg);
+    z-index:9;
+}
+.eight{
+    height: 80%;
+    width:80%;
+    transform: rotateX(90deg);
+    transform: rotateZ(40deg);
+    z-index: -1;
+}
+.planet{
+    width:50px;
+    position: absolute;
+    top:-20px;
+}
+.planet img{
+    width:100%;
+}
+.rotation-box{
+    height: 90vh;
+    width: 90vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#sun{
+    height: 80%;
+    width: 80%;
+}
+.sun{
+    height: 90%;
+    width: 90%;
+    border: none;
+}
